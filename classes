@@ -1,0 +1,173 @@
+public class Employee {
+    
+    private String fName;
+    private String lName;
+    private String ID;
+    
+    
+    public Employee(){
+    
+        this.fName = "";
+        this.lName = "";
+        this.ID = "";
+     
+    }
+
+    public Employee(String fName, String lName, String ID) {
+        this.fName = fName;
+        this.lName = lName;
+        this.ID = ID;
+    }
+
+    public String getfName() {
+        return fName;
+    }
+
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public void setlName(String lName) {
+        this.lName = lName;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee: " + "First Name: " + fName + ", Last Name: " + lName + ", ID: " + ID ;
+    }
+    
+    
+}
+
+
+public class Equipment {
+    
+    private String name;
+    private String code;
+    private String status;
+    
+    public Equipment(){
+        
+        this.name = "";
+        this.code = "";
+        this.status = "";
+    }
+
+    public Equipment(String name, String code, String status) {
+        this.name = name;
+        this.code = code;
+        this.status = status;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "Equipment: " + "name: " + name + ", code: " + code + ", status: " + status;
+    }
+    
+    
+    
+}
+
+
+public class Member {
+    
+    // Fields:
+
+	private String fName;		// first name
+        private String lName;		// last name
+	private String ID;		// id code
+	private String status;	        // member status 
+     
+        
+    public Member(){
+        
+        this.fName = "";
+        this.lName = "";
+        this.ID = "";
+        this.status = "";  
+        
+    }    
+        
+    public Member(String fName, String lName, String ID, String status) {
+        this.fName = fName;
+        this.lName = lName;
+        this.ID = ID;
+        this.status = status;
+    }
+
+    public String getfName() {
+        return fName;
+    }
+
+    public void setfName(String fName) {
+        this.fName = fName;
+    }
+
+    public String getlName() {
+        return lName;
+    }
+
+    public void setlName(String lName) {
+        this.lName = lName;
+    }
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    @Override
+    public String toString() {
+        return "member: " + "first Name: " + fName + ", Last Name: " + lName + ", ID: " + ID + ", status: " + status ;
+    }
+    
+    
+        
+}
